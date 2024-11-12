@@ -14,7 +14,6 @@ document.querySelectorAll('.box input[type="radio"]').forEach((radio) => {
       }
     });
   
-    // Update the total price
     document.getElementById('total-price').innerText = `Total: $${total.toFixed(2)} USD`;
   }
   
