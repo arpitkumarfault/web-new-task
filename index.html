@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="main-container">
+      <h1 class="heading">YAY! it's BOGO</h1>
+      <div class="main-box">
+        <!-- First Box -->
+        <div class="box" data-price="250">
+          <div class="content">
+            <input type="radio" name="box-radio" class="radio-btn" />
+            <div>
+              <h1>1 UNIT</h1>
+              <h3>Standard Price</h3>
+            </div>
+            <div class="price-container">
+              <h1 class="price">$ 250.00 USD</h1>
+              <h3 class="original-price" style="text-decoration: line-through">$ 400.00 USD</h3>
+            </div>
+            <div class="discount-badge">20% OFF</div>
+          </div>
+          <!-- Hover box -->
+          <div class="hover-box">
+            <div class="option">
+              <label for="size">Size</label>
+              <select id="size1">
+                <option value="S">Small</option>
+                <option value="M">Medium</option>
+                <option value="L">Large</option>
+                <option value="XL">Extra Large</option>
+              </select>
+            </div>
+            <div class="option">
+              <label for="color">Color</label>
+              <select id="color1">
+                <option value="red">Red</option>
+                <option value="blue">Blue</option>
+                <option value="green">Green</option>
+                <option value="black">Black</option>
+              </select>
+            </div>
+          </div>
+        </div>
+
+        <!-- Second Box -->
+        <div class="box" data-price="150">
+          <div class="content">
+            <input type="radio" name="box-radio" class="radio-btn" />
+            <div>
+              <h1>1 UNIT</h1>
+              <h3>Standard Price</h3>
+            </div>
+            <div class="price-container">
+              <h1 class="price">$ 150.00 USD</h1>
+              <h3 class="original-price" style="text-decoration: line-through">$ 250.00 USD</h3>
+            </div>
+            <div class="discount-badge">15% OFF</div>
+          </div>
+          <!-- Hover box -->
+          <div class="hover-box">
+            <div class="option">
+              <label for="size">Size</label>
+              <select id="size2">
+                <option value="S">Small</option>
+                <option value="M">Medium</option>
+                <option value="L">Large</option>
+                <option value="XL">Extra Large</option>
+              </select>
+            </div>
+            <div class="option">
+              <label for="color">Color</label>
+              <select id="color2">
+                <option value="red">Red</option>
+                <option value="blue">Blue</option>
+                <option value="green">Green</option>
+                <option value="black">Black</option>
+              </select>
+            </div>
+          </div>
+        </div>
+
+        <!-- Third Box -->
+        <div class="box" data-price="120">
+          <div class="content">
+            <input type="radio" name="box-radio" class="radio-btn" />
+            <div>
+              <h1>1 UNIT</h1>
+              <h3>Standard Price</h3>
+            </div>
+            <div class="price-container">
+              <h1 class="price">$ 120.00 USD</h1>
+              <h3 class="original-price" style="text-decoration: line-through">$ 180.00 USD</h3>
+            </div>
+            <div class="discount-badge">10% OFF</div>
+          </div>
+          <!-- Hover box -->
+          <div class="hover-box">
+            <div class="option">
+              <label for="size">Size</label>
+              <select id="size3">
+                <option value="S">Small</option>
+                <option value="M">Medium</option>
+                <option value="L">Large</option>
+                <option value="XL">Extra Large</option>
+              </select>
+            </div>
+            <div class="option">
+              <label for="color">Color</label>
+              <select id="color3">
+                <option value="red">Red</option>
+                <option value="blue">Blue</option>
+                <option value="green">Green</option>
+                <option value="black">Black</option>
+              </select>
+            </div>
+          </div>
+        </div>
+
+        <div class="cart-total">
+          <h1 style="color: #ff6b82;">Free Delivery</h1>
+          <h2 id="total-price">Total: $520.00 USD</h2>
+        </div>
+        <div class="add-to-cart-btn">Add to Cart</div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
